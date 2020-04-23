@@ -121,8 +121,8 @@ const funcs = {
         const ay = a * this.getResolve( MegaMath.VectorOperation( la, lc, "-" ), "y" ); // 向心力竖直分量
         const vx = this.getResolve( v, "x" ); // 速度水平分量
         const vy = this.getResolve( v, "y" ); // 速度竖直分量
-        const velocityX = vx + ax * time;
-        const velocityY = vy + ay * time;
+        const velocityX = vx + ax * t;
+        const velocityY = vy + ay * t;
     },
 
     /* 获取一个向量在x或y上的分量大小 */
