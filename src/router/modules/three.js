@@ -33,12 +33,6 @@ const threeRouter = {
             name: "Cube",
             meta: { title: "异次元杀阵(i)" }
         }
-        // {
-        //     path: "GameOfLife",
-        //     component: () => import("@/views/three/GameOfLife/GameOfLife.vue"),
-        //     name: "GameOfLife",
-        //     meta: { title: "生命游戏" }
-        // }
     ]
 };
 
