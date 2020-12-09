@@ -32,6 +32,12 @@ const threeRouter = {
             component: () => import("@/views/three/Cube/Cube.vue"),
             name: "Cube",
             meta: { title: "异次元杀阵(i)" }
+        },
+        {
+            path: "dev",
+            component: () => import("@/views/three/dev/dev.vue"),
+            name: "DevPage",
+            meta: { title: "测试页面" }
         }
     ]
 };

@@ -39,6 +39,7 @@
         "stats.js": "^0.17.0",
         "three": "^0.114.0",
         "vue": "2.6.10",
+        "vue-resource": "^1.5.1",
         "vue-router": "3.0.2"
     },
     "devDependencies": {

@@ -10,6 +10,9 @@ import Element from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 Vue.use(Element);
 
+import VueResource from "vue-resource";
+Vue.use(VueResource);
+
 const install = function (VueClass, opts = {}) {
     if (install.installed) return;
 

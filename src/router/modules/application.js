@@ -14,6 +14,12 @@ const applicationRouter = {
             component: () => import("@/views/application/GameOfLife/GameOfLife.vue"),
             name: "GameOfLife",
             meta: { title: "生命游戏" }
+        },
+        {
+            path: "Loans",
+            component: () => import("@/views/application/Loans/Loans.vue"),
+            name: "Loans",
+            meta: { title: "房贷还款计算器" }
         }
     ]
 };
