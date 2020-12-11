@@ -19,7 +19,13 @@ const applicationRouter = {
             path: "Loans",
             component: () => import("@/views/application/Loans/Loans.vue"),
             name: "Loans",
-            meta: { title: "房贷还款计算器" }
+            meta: { title: "房贷还款计算器(i)" }
+        },
+        {
+            path: "pokemon",
+            component: () => import("@/views/application/Pokemon/main.vue"),
+            name: "Pokemon",
+            meta: { title: "Pokemon(i)" }
         }
     ]
 };

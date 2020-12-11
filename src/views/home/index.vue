@@ -22,7 +22,7 @@ export default {
 .home {
     width: 100%;
     height: 100%;
-    // background: #000000 url("../../assets/images/home_bg.jpg") 100%;
-    background: #000000 url("/static/home_bg.jpg") 100%;
+    background: #000000 url("https://img9.51tietu.net/pic/2019-091323/qi4b3rggo0nqi4b3rggo0n.jpg");
+    background-size: auto 100%;
 }
 </style>
