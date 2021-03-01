@@ -54,12 +54,10 @@ const funcs = {
 
     /* 获取属性的中文名称 */
     getTypeName (id) {
-        console.log("id:", id);
         if (typeof(id) === "number") return nameList[id];
-        else if (typeof(id) === "string") return nameList[Number(id)];
         else {
             let name = "";
-            id.forEach(i => {
+            id.split(";").forEach(i => {
                 name += nameList[Number(i)] + "、";
             });
             return name.slice(0, name.length - 1);

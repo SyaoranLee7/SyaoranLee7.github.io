@@ -23,9 +23,15 @@ const applicationRouter = {
         },
         {
             path: "pokemon",
-            component: () => import("@/views/application/Pokemon/main.vue"),
+            component: () => import("@/views/application/Pokemon/index.vue"),
             name: "Pokemon",
             meta: { title: "Pokemon(i)" }
+        },
+        {
+            path: "MyPlan",
+            component: () => import("@/views/application/MyPlan/index.vue"),
+            name: "MyPlan",
+            meta: { title: "个人计划" }
         }
     ]
 };

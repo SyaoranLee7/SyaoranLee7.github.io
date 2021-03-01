@@ -79,7 +79,7 @@ export default {
 
         /* 添加场景中各种物体 */
         AddScene () {
-            const cube = helper.getRoom( { x: 0, y: 0, z: 0 }, 2 )
+            const cube = helper.getRoom( { x: 0, y: 0, z: 0 }, 2 );
             this.cube = cube;
             console.log("cube:", cube);
             cube.forEach(obj => {

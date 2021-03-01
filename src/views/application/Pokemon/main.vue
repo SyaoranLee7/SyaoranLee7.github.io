@@ -1,51 +1,53 @@
 <template>
-    <div class="pg">
+    <div class="pok">
 
-        <el-button type="primary" @click="type = 'database'">图鉴</el-button>
-        <el-button type="primary" @click="goGame">冒险</el-button>
-        <el-button type="primary" @click="type = 'type'">属性相克表</el-button>
+        <div class="pok-menu">
+            <el-button type="primary" @click="activeModel = 'myPok'">我的精灵</el-button>
+        </div>
 
-        <pokemon-database v-if="type === 'database'" class="pg-main"></pokemon-database>
-        <pokemon-type v-else-if="type === 'type'" class="pg-main"></pokemon-type>
+        <div class="pok-main">
+        </div>
 
     </div>
 </template>
 
 <script>
-import PokemonDatabase from "./PokemonDatabase";
-import PokemonType from "./PokemonType";
+// import MyPokemon from "./myPok.vue";
 export default {
-    name: "Pokemon",
+    name: "PokemonMain",
 
     components: {
-        PokemonDatabase,
-        PokemonType
+        // MyPokemon
     },
 
     data () {
         return {
-            type: "database"
+            activeModel: "myPok" // 当前模块
         };
     },
 
-    created () {
-    },
+    created () {},
 
-    methods: {
-        goGame () {}
-    }
+    mounted () {},
+
+    methods: {}
 };
 </script>
 
 <style lang="scss" scoped>
-.pg {
-    padding: 20px;
+.pok {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(20, 40px);
+    grid-template-rows: repeat(auto-fill, 40px);
     gap: 20px 20px;
+    height: 100%;
+    &-menu {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
     &-main {
-        grid-area: 2 / 1 / 20 / 13;
+      grid-column-start: 2;
+      grid-column-end: 13;
     }
 }
 </style>

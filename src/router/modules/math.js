@@ -38,6 +38,12 @@ const mathRouter = {
             component: () => import("@/views/math/Integration/Integration.vue"),
             name: "Integration",
             meta: { title: "定积分计算" }
+        },
+        {
+            path: "Cardioid",
+            component: () => import("@/views/math/Cardioid/Cardioid.vue"),
+            name: "Cardioid",
+            meta: { title: "各类心形线" }
         }
     ]
 };

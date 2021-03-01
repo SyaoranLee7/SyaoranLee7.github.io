@@ -1,20 +1,25 @@
-import PokemonList from "./pokemonList.js";
+import PokemonList from "./pokList.json";
 import TypeHelper from "../PokemonType/type.js";
+import { clone } from "@/utils";
+const lim = 30; /* 大背景图每行展示个数 */
 const funcs = {
-    getPokemonList () {
-        const list = PokemonList.map((i, index) => {
-            let id = 0;
-            if (index < 10) id = "00" + index;
-            else if (index < 100) id = "0" + index;
-            else id = index;
-            return {
-                id,
-                chName: i.cn,
-                enName: i.en,
-                type: TypeHelper.getTypeName(i.type)
+    getPokemonList (page, pageSize) {
+        const list = PokemonList;
+        list.forEach(i => {
+            const y = (0 - 56 * i.imgPosition.split(";")[0]) + "px";
+            const x = (0 - 68 * i.imgPosition.split(";")[1]) + "px";
+            i.positionStyle = {
+                "background-position": x + " " + y
             };
         });
-        return list;
+
+        const start = (page - 1) * pageSize;
+        const end = start + pageSize;
+        const currentList = list.slice(start, end);
+        return {
+            data: currentList,
+            total: list.length
+        };
     }
 };
 export default funcs;

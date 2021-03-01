@@ -1,4 +1,5 @@
 "use strict"
+// const CopyWebpackPlugin = require("copy-webpack-plugin"); //引入插件
 const path = require("path");
 
 function resolve(dir) {
@@ -30,6 +31,13 @@ module.exports = {
                 "@": resolve("src")
             }
         }
+        // plugins: [
+        //     new CopyWebpackPlugin({
+        //         patterns: [
+        //             { from: "./static", to: "static" }
+        //         ]
+        //     })
+        // ]
     },
     chainWebpack(config) {
       config.plugins.delete("preload") // TODO: need test
