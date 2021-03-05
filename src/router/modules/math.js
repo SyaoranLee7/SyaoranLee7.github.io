@@ -43,7 +43,13 @@ const mathRouter = {
             path: "Cardioid",
             component: () => import("@/views/math/Cardioid/Cardioid.vue"),
             name: "Cardioid",
-            meta: { title: "各类心形线" }
+            meta: { title: "各类心形线(i)" }
+        },
+        {
+            path: "TeachLA",
+            component: () => import("@/views/math/TeachLA/index.vue"),
+            name: "TeachLA",
+            meta: { title: "线性代数演示" }
         }
     ]
 };
