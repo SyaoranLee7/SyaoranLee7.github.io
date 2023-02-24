@@ -1,0 +1,1 @@
+<view class="m-plan-button _div"><u-button class="button" vue-id="28db0182-1" color="{{color}}" round="{{true}}" plain="{{plain}}" bind:__l="__l" vue-slots="{{['default']}}">{{value}}</u-button></view>

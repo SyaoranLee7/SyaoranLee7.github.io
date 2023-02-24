@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+page {
+  background: #f2f2f2;
+}
+.bottom_bar {
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.bottom_bar .btn-info {
+  width: 42vw;
+  border: 1px #377dff solid;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  color: #377dff;
+  border-radius: 4px;
+}
+.bottom_bar .btn-ok {
+  width: 42vw;
+  border: 1px #377dff solid;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  color: #fff;
+  background: #377dff;
+  border-radius: 4px;
+}
+.app-check-detail {
+  padding: 20px;
+  padding-bottom: 100px;
+}
+.app-check-detail .app-check-detail-group-header {
+  height: 70px;
+  background: #fef3f1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 14px;
+}
+.app-check-detail .app-check-detail-group-header .app-check-detail-group-header-box-info-title {
+  color: #e94732;
+  font-size: 18px;
+  font-weight: bold;
+}
+.app-check-detail .app-check-detail-group-header .app-check-detail-group-header-box-info-des {
+  color: #666;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.app-check-detail .app-check-detail-group-header-normal {
+  margin-top: 20px;
+  background: #effaf6;
+}
+.app-check-detail .app-check-detail-group-header-normal .app-check-detail-group-header-box-info-title {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+.app-check-detail .app-check-detail-group-header-normal .app-check-detail-group-header-box-info-des {
+  color: #666;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.app-check-detail .app-check-detail-item {
+  background: #fff;
+  padding: 14px;
+}
+.app-check-detail .app-check-detail-item .app-check-detail-item-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  height: 34px;
+  margin-bottom: 10px;
+}
+.app-check-detail .app-check-detail-item .app-check-detail-item-header-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.app-check-detail .app-check-detail-item .app-check-detail-item-header-control {
+  font-size: 14px;
+  color: #999;
+}
+.app-check-detail .app-check-detail-item .app-check-detail-item-bodyer {
+  font-size: 14px;
+  line-height: 1.4;
+}
+.app-check-detail .app-check-detail-item .app-check-detail-item-bodyer-des {
+  margin-top: 10px;
+  color: #666;
+}
+.app-check-detail .app-check-detail-item .app-check-detail-item-bodyer-des-tips {
+  margin-bottom: 4px;
+}

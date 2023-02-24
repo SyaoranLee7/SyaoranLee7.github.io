@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more",
+    "no-data": "/components/nodata",
+    "news-item": "/pages/news/news-item"
+  }
+}

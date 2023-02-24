@@ -1,0 +1,358 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+/** 健康块 */
+.app-section.data-v-62ac1d96 {
+  border-radius: 10px;
+  background: #fff;
+  padding: 14px;
+  margin-top: 14px;
+  padding-top: 0px;
+}
+.app-section .app-section-header.data-v-62ac1d96 {
+  width: 100%;
+  height: 52px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1px #eeeeee solid;
+}
+.app-section .app-section-header .app-section-header-title.data-v-62ac1d96 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.app-section .app-section-header .app-section-header-btn.data-v-62ac1d96 {
+  border: 1px #e8e8e8 solid;
+  border-radius: 14px;
+  height: 28px;
+  font-size: 14px;
+  padding: 0 10px;
+  color: #3873fe;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.app-section .app-section-bodyer.data-v-62ac1d96 {
+  width: 100%;
+}
+/** 健康颜色定义 */
+.color-warning.data-v-62ac1d96 {
+  color: #EE9E5E;
+}
+.color-health.data-v-62ac1d96 {
+  color: #4DAD9B;
+}
+.color-risk.data-v-62ac1d96 {
+  color: #F4C264;
+}
+.color-danger.data-v-62ac1d96 {
+  color: #EA6D2C;
+}
+/** 健康颜色背景 **/
+.bg-warning.data-v-62ac1d96 {
+  background-color: #fcc14f;
+}
+.bg-health.data-v-62ac1d96 {
+  background-color: #01b09a;
+}
+.bg-risk.data-v-62ac1d96 {
+  background-color: #F4C264;
+}
+.bg-danger.data-v-62ac1d96 {
+  background-color: #fa6400;
+}
+.ronin-report.data-v-62ac1d96 {
+  padding-bottom: 400rpx;
+}
+.ronin-report .head.data-v-62ac1d96 {
+  position: relative;
+  width: 100%;
+  height: 280rpx;
+  padding-top: 38rpx;
+}
+.ronin-report .head .head-back.data-v-62ac1d96 {
+  padding: 0 28rpx;
+  height: 88rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #fff;
+  font-size: 32rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ronin-report .head .head-back .head-back-right.data-v-62ac1d96 {
+  width: 100rpx;
+}
+.ronin-report .head.data-v-62ac1d96:after {
+  /* 这个伪类的作用就是一个圆弧的背景色 */
+  width: 140%;
+  height: 440rpx;
+  position: absolute;
+  left: -20%;
+  /* 之所以left:20%,是因为width:140%，宝贝可以是是别的值，例如width:160%，那么left:30%才能水平居中，可以发现规律的 */
+  top: 0;
+  z-index: -1;
+  /*层叠顺序，最底层显示*/
+  content: "";
+  border-radius: 0 0 50% 50%;
+  /*分别对应 左上 右上 右下 左下*/
+  background: #0049de;
+  /* 将这个伪类水平居中 */
+}
+.ronin-report .head-title.data-v-62ac1d96 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  color: #fff;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 24rpx;
+  padding-top: 18rpx;
+}
+.ronin-report .head-title .title.data-v-62ac1d96 {
+  font-size: 48rpx;
+  margin-bottom: 4rpx;
+}
+.ronin-report .head-title .sub-title.data-v-62ac1d96 {
+  font-size: 28rpx;
+  opacity: 0.6;
+}
+.ronin-report .head-title .botton.data-v-62ac1d96 .u-btn {
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+.ronin-report .content.data-v-62ac1d96 {
+  margin: 0 28rpx;
+  padding: 28rpx;
+  min-height: 200rpx;
+  background: #fff;
+  margin-top: -116rpx;
+  border-radius: 24rpx;
+  margin-bottom: 24rpx;
+  color: #656565;
+  line-height: 1.6;
+}
+.ronin-report .content .content-grade.data-v-62ac1d96 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ronin-report .content .content-grade .item.data-v-62ac1d96 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin: 0 6rpx;
+}
+.ronin-report .content .content-grade .item .icon.data-v-62ac1d96 {
+  color: #38cb89;
+}
+.ronin-report .content .content-grade .item .bg.data-v-62ac1d96 {
+  background: #38cb89;
+  width: 100%;
+  height: 14rpx;
+  margin-top: 10rpx;
+  margin-bottom: 6rpx;
+}
+.ronin-report .content .content-grade .item-center .icon.data-v-62ac1d96 {
+  color: #ffab00;
+}
+.ronin-report .content .content-grade .item-center .bg.data-v-62ac1d96 {
+  background: #ffab00;
+}
+.ronin-report .content .content-grade .item-end .icon.data-v-62ac1d96 {
+  color: #ff5630;
+}
+.ronin-report .content .content-grade .item-end .bg.data-v-62ac1d96 {
+  background: #ff5630;
+}
+.ronin-report .content .text-item.data-v-62ac1d96 {
+  color: #383838;
+  font-size: 28rpx;
+  margin-bottom: 40rpx;
+  line-height: 1.8;
+}
+.ronin-report .content-item.data-v-62ac1d96 {
+  margin-top: 0rpx;
+}
+.ronin-report .bottom.data-v-62ac1d96 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 28rpx;
+}
+.ronin-report .ronin-title.data-v-62ac1d96 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 20rpx;
+}
+.ronin-report .ronin-title .ronin-title-icon.data-v-62ac1d96 {
+  height: 36rpx;
+  width: 10rpx;
+  border-radius: 6rpx;
+  background: -webkit-linear-gradient(top, #769fff, #3873fe);
+  background: linear-gradient(to bottom, #769fff, #3873fe);
+  margin-right: 12rpx;
+}
+.ronin-report .ronin-title .ronin-title-name.data-v-62ac1d96 {
+  font-size: 32rpx;
+  color: #333;
+  font-weight: 600;
+}
+.app-risk.data-v-62ac1d96 {
+  padding-bottom: 30rpx;
+}
+.app-risk .app-risk-tips.data-v-62ac1d96 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+}
+.app-risk .app-risk-tips .app-risk-tips-item.data-v-62ac1d96 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 33.33%;
+  height: 50px;
+}
+.app-risk .app-risk-tips .app-risk-tips-item .app-risk-tips-item-box .info.data-v-62ac1d96 {
+  width: 100%;
+  text-align: center;
+  margin-top: 14px;
+  line-height: 1.8;
+}
+.app-risk .app-risk-tips .app-risk-tips-item .app-risk-tips-item-box .arrows.data-v-62ac1d96 {
+  margin-top: 0px;
+  width: 0;
+  height: 0;
+  margin: 2px auto;
+}
+.app-risk .app-risk-tips .app-risk-tips-item .app-risk-tips-item-box:nth-child(0) .arrows.data-v-62ac1d96 {
+  border: 6px solid transparent;
+  border-top: 6px solid #4dad9b;
+}
+.app-risk .app-risk-tips .app-risk-tips-item .app-risk-tips-item-box:nth-child(3) .arrows.data-v-62ac1d96 {
+  border: 6px solid transparent;
+  border-top: 6px solid #ea6d2c;
+}
+.app-risk .app-risk-info.data-v-62ac1d96 {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  height: 60px;
+}
+.app-risk .app-risk-info-num.data-v-62ac1d96 {
+  padding-top: 6px;
+  position: absolute;
+}
+.app-risk .app-risk-level.data-v-62ac1d96 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+}
+.app-risk .app-risk-level .app-risk-level-item.data-v-62ac1d96 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 33.33%;
+  height: 24px;
+  color: #fff;
+}
+.app-risk .app-risk-level .actived.data-v-62ac1d96 {
+  height: 32px;
+}
+.app-risk .app-risk-level .app-risk-level-item.data-v-62ac1d96:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.app-risk .app-risk-level .app-risk-level-item.data-v-62ac1d96:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.u-th.data-v-62ac1d96 {
+  font-size: 24rpx;
+}

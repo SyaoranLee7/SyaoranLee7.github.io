@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "navigationBarTitleText": "添加记录",
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "m-buttom": "/pages/home/MButtom"
+  }
+}

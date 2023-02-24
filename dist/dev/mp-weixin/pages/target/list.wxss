@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+page {
+  background: #fafafa;
+}
+.app-home {
+  min-height: 60vh;
+  background-position: top right;
+  padding: 20px 14px;
+  height: 200px;
+}
+.app-home-title {
+  height: 90px;
+  color: #fff;
+}
+.app-home-title ._h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.app-home-title ._p {
+  margin-top: 6px;
+  font-size: 14px;
+}
+.target-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.target-list .target-list-item {
+  width: 44.4vw;
+  height: 28vw;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.target-list .target-list-item .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 24px;
+  margin-left: 20px;
+}
+.icons {
+  width: 18vw;
+  height: 18vw;
+  opacity: 0.1;
+  float: right;
+  margin-top: -40px;
+  margin-right: 20px;
+}
+.no-data {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.no-data .no-date-item {
+  width: 80vw;
+}
+.no-data .no-date-item .no-date-title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 14px;
+  font-weight: bold;
+}

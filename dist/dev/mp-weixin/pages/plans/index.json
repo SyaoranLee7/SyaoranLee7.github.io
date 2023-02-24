@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "目标",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
+  }
+}

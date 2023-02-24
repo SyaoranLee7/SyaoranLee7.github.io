@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+page {
+  background-color: #ffffff;
+}
+.app-article-detail {
+  padding: 18px;
+}
+.app-article-detail-header {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+.app-article-detail-header .title {
+  margin: 14px 0px;
+}
+.app-article-detail-header .info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.app-article-detail-header .info .user-logo {
+  width: 32px;
+  height: 32px;
+  background: #eee;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.app-article-detail-header .info .user-name {
+  font-size: 14px;
+  color: #3873fe;
+  font-weight: 400;
+}
+.app-article-detail-header .tips {
+  margin-top: 14px;
+  border-top: 1px #eee solid;
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  padding: 14px 0px;
+}
+.app-article-detail-content {
+  line-height: 1.8;
+}
+.app-article-detail-content ._img {
+  margin: 14px 0px;
+}
+.video {
+  width: 100%;
+}

@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+.ronin-project.data-v-3e746348 {
+  background: #fff;
+  padding-bottom: 30rpx;
+}
+.ronin-project .paddingLR.data-v-3e746348 {
+  padding: 0 32rpx;
+}
+.ronin-project .details-head.data-v-3e746348 {
+  background: #000ca8;
+  height: 332rpx;
+  color: #fff;
+  padding: 0 32rpx;
+  padding-top: 60rpx;
+  position: relative;
+  overflow: hidden;
+}
+.ronin-project .details-head .img.data-v-3e746348 {
+  position: absolute;
+  top: -90rpx;
+  right: -10rpx;
+}
+.ronin-project .details-head .title.data-v-3e746348 {
+  font-size: 48rpx;
+  margin-bottom: 10rpx;
+}
+.ronin-project .details-head .sub-title.data-v-3e746348 {
+  margin-bottom: 32rpx;
+}
+.ronin-project .details-head .box.data-v-3e746348 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ronin-project .details-head .box .line.data-v-3e746348 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 4rpx;
+  background: #8b959e;
+}
+.ronin-project .details-head .box .item.data-v-3e746348 {
+  position: relative;
+}
+.ronin-project .details-head .box .item .icon.data-v-3e746348 {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  background: #fff;
+}
+.ronin-project .details-head .box .item .text.data-v-3e746348 {
+  position: absolute;
+  top: 46rpx;
+  width: 140rpx;
+}
+.ronin-project .details-head .box .item .text-center.data-v-3e746348 {
+  left: -40rpx;
+}
+.ronin-project .details-head .box .item .text-right.data-v-3e746348 {
+  left: -84rpx;
+}
+.ronin-project .hint.data-v-3e746348 {
+  padding-top: 60rpx;
+}
+.ronin-project .hint .title.data-v-3e746348 {
+  font-size: 32rpx;
+  margin-bottom: 30rpx;
+}
+.ronin-project .hint .des.data-v-3e746348 {
+  font-size: 28rpx;
+  padding-bottom: 40rpx;
+  color: #707070;
+}
+.ronin-project .content-hint.data-v-3e746348 {
+  margin: 0 32rpx;
+  margin-top: 26rpx;
+  height: 162rpx;
+  background: #f6f6f6;
+  border-radius: 4rpx;
+  padding-left: 64rpx;
+  padding-right: 58rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 26rpx;
+}
+.ronin-project .content-hint .content-hint-left.data-v-3e746348 {
+  width: 140rpx;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.ronin-project .content-hint .content-hint-left .img.data-v-3e746348 {
+  width: 56rpx;
+  height: 56rpx;
+}
+.ronin-project .content-hint .content-hint-right .item.data-v-3e746348 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ronin-project .content-hint .content-hint-right .item .icon.data-v-3e746348 {
+  width: 40rpx;
+  height: 24rpx;
+  background: #ff4c30;
+  border-radius: 4rpx;
+}
+.ronin-project .content-hint .content-hint-right .item .type.data-v-3e746348 {
+  margin-left: 12rpx;
+  margin-right: 24rpx;
+}
+.ronin-project .content-hint .content-hint-right .item .type-high.data-v-3e746348 {
+  color: #ff4c30;
+}
+.ronin-project .content-hint .content-hint-right .item .type-middle.data-v-3e746348 {
+  color: #ffab00;
+}
+.ronin-project .content-hint .content-hint-right .item .des.data-v-3e746348 {
+  color: #333;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+.ronin-project .content-hint .content-hint-right .item-center .icon.data-v-3e746348 {
+  background: #ffab00;
+}
+.ronin-project .content-hint .content-hint-right .item-center .type.data-v-3e746348 {
+  color: #ffab00;
+}
+.ronin-project .content-hint .content-hint-right .item-end .icon.data-v-3e746348 {
+  background: #38cb89;
+}
+.ronin-project .content-hint .content-hint-right .item-end .type.data-v-3e746348 {
+  color: #38cb89;
+}
+.ronin-project .img-box.data-v-3e746348 {
+  width: 660rpx;
+  height: 660rpx;
+  margin: 60rpx 20rpx;
+}
+.ronin-project .btn-box.data-v-3e746348 {
+  width: 250rpx;
+  margin: 0 auto;
+  margin-bottom: 40rpx;
+}
+.ronin-project .product-box.data-v-3e746348 {
+  margin-bottom: 100rpx;
+}
+.ronin-project .product-box .title.data-v-3e746348 {
+  font-size: 32rpx;
+  margin-bottom: 32rpx;
+}
+.ronin-project .product-box .product-item.data-v-3e746348 {
+  margin-bottom: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ronin-project .product-box .product-item .product-content.data-v-3e746348 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  background: #e7f1fd;
+  padding: 28rpx 26rpx;
+  border-radius: 10rpx;
+  margin-left: 26rpx;
+}
+.ronin-project .product-box .product-item .product-content .product.data-v-3e746348 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ronin-project .product-box .product-item .product-content .product .name.data-v-3e746348 {
+  font-size: 28rpx;
+}
+.ronin-project .product-box .product-item .product-content .product .price.data-v-3e746348 {
+  font-size: 24rpx;
+}
+.ronin-project .product-box .product-item .product-content .des.data-v-3e746348 {
+  font-size: 20rpx;
+  color: #454545;
+}
+.ronin-project .statistic.data-v-3e746348 {
+  margin-bottom: 66rpx;
+}
+.ronin-project .statistic .item.data-v-3e746348 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 12rpx;
+}
+.ronin-project .statistic .all.data-v-3e746348 {
+  text-align: right;
+}
+.ronin-project .statistic .all .price.data-v-3e746348 {
+  margin-left: 16rpx;
+  font-size: 42rpx;
+  font-weight: 600;
+  color: #ff7823;
+}
+.ronin-project .statistic .all .price .unit.data-v-3e746348 {
+  font-size: 28rpx;
+}

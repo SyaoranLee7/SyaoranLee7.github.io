@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+.plan-flow {
+  height: 100vh;
+  background: -webkit-linear-gradient(top, #333e7a 0%, #2e3b73 100%);
+  background: linear-gradient(180deg, #333e7a 0%, #2e3b73 100%);
+  background-size: cover;
+  padding: 0 32rpx;
+}
+.plan-flow .plan-flow-history {
+  position: absolute;
+  height: 108rpx;
+  line-height: 108rpx;
+  top: 0;
+  width: calc(100% - 64rpx);
+  text-align: right;
+  color: #ffffff;
+  font-size: 32rpx;
+}
+.plan-flow .plan-flow-card {
+  position: absolute;
+  width: calc(100% - 64rpx);
+  min-height: 864rpx;
+  top: 108rpx;
+  border-radius: 32rpx;
+  background: #fff;
+  background-size: 80vw;
+  background-position: top right;
+  padding-left: 43rpx;
+  padding-right: 43rpx;
+  padding-bottom: 100rpx;
+  touch-action: none;
+}
+.plan-flow .plan-flow-card .plan-flow-card-icon {
+  position: absolute;
+  width: 112rpx;
+  height: 130rpx;
+  left: 78.57%;
+  right: 5.1%;
+  top: 3.42%;
+  bottom: 83.09%;
+  background-size: cover;
+}
+.plan-flow .plan-flow-card .plan-flow-card-stepper {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+          align-items: baseline;
+  color: #2281ff;
+  padding-top: 48rpx;
+  padding-bottom: 32rpx;
+}
+.plan-flow .plan-flow-card .plan-flow-card-stepper .now {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 82rpx;
+  height: 94rpx;
+  line-height: 94rpx;
+  margin: 0;
+}
+.plan-flow .plan-flow-card .plan-flow-card-stepper .all {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  margin: 0;
+  opacity: 0.6;
+}
+.plan-flow .plan-flow-card .plan-flow-card-title {
+  font-weight: 600;
+  font-size: 40rpx;
+  height: 48rpx;
+  font-style: normal;
+  line-height: 48rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #323233;
+  padding-bottom: 13rpx;
+}
+.plan-flow .plan-flow-card .plan-flow-card-des {
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #969799;
+  padding-bottom: 48rpx;
+}
+.plan-flow .plan-flow-card .plan-flow-card-scale {
+  width: 32rpx;
+  height: 300rpx;
+  border-left: 1rpx solid #ccc;
+  overflow: hidden;
+}
+.plan-flow .plan-flow-card .plan-flow-card-scale .swiper {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.plan-flow .plan-flow-card .plan-flow-card-scale .swiper .swiper-top {
+  height: 150rpx;
+}
+.plan-flow .plan-flow-card .plan-flow-card-scale .swiper .swiper-item {
+  border-top: 1rpx solid #ccc;
+  height: 20rpx;
+}
+.plan-flow .plan-flow-card .plan-flow-card-scale .swiper::-webkit-scrollbar {
+  display: none;
+}
+.plan-flow .plan-flow-card .plan-flow-card-button {
+  position: absolute;
+  bottom: 56rpx;
+  width: calc(100% - 86rpx);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.plan-flow .plan-flow-card .plan-flow-card-button .button-up {
+  border: 0;
+  height: 64rpx;
+  color: #646566;
+}
+.plan-flow .plan-flow-card .plan-flow-card-button .button-up::before {
+  background-color: transparent;
+}
+.plan-flow .plan-flow-card .plan-flow-card-button .button-up:active {
+  color: #323233;
+}
+.plan-flow .plan-flow-card .plan-flow-card-button .button-next {
+  border: 0;
+}
+.plan-flow .plan-flow-card .plan-flow-card-button .van-button--small {
+  padding: 0 32rpx;
+}
+.plan-flow .plan-flow-card .m-plan-button .van-button--plain:active {
+  background-color: #e8f2ff;
+}
+.plan-flow .plan-flow-card .m-plan-button .van-button--plain::before {
+  background-color: transparent;
+}
+.plan-flow .plan-flow-card .plan-flow-ruler {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.plan-flow .plan-flow-card .plan-flow-ruler .plan-flow-ruler-item {
+  width: 260rpx;
+  height: 347rpx;
+}
+.plan-flow .plan-flow-popup {
+  padding: 48rpx;
+  padding-bottom: 32rpx;
+  width: 622rpx;
+  height: 404rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}
+.plan-flow .plan-flow-popup .plan-flow-popup-title {
+  text-align: center;
+  line-height: 48rpx;
+  font-weight: 600;
+  color: #323233;
+}
+.plan-flow .plan-flow-popup  .popup-field {
+  width: 526rpx;
+  height: 88rpx;
+  margin-top: 16rpx;
+  padding: 10rpx 16rpx;
+  background: #f7f8fa;
+  border-radius: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.plan-flow .plan-flow-popup  .popup-field::after {
+  display: none;
+}
+.plan-flow .plan-flow-popup .popup-prompt {
+  color: #ee0a24;
+  font-size: 26rpx;
+  margin: 16rpx 0 48rpx;
+}
+.plan-flow .plan-flow-popup .popup-button {
+  width: calc(100% - 96rpx);
+  position: absolute;
+  bottom: 32rpx;
+}

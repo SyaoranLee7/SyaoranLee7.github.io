@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+page.data-v-195d396b {
+  background: #eee;
+}
+.data-v-195d396b .u-input__input {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.app-record-box.data-v-195d396b {
+  padding: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.app-record-box-title.data-v-195d396b {
+  position: absolute;
+  font-size: 32rpx;
+  color: #888;
+}
+.app-record-box-button.data-v-195d396b {
+  width: 80vw;
+  height: 72rpx;
+  background: #3873fe;
+  color: #fff;
+  position: fixed;
+  bottom: 5vh;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-radius: 4px;
+}
+.app-record-box-charts.data-v-195d396b {
+  margin-top: 40px;
+  width: 375rpx;
+  height: 375rpx;
+  position: absolute;
+}
+.app-record-box-charts .charts.data-v-195d396b {
+  width: 375rpx;
+  height: 375rpx;
+  position: absolute;
+}
+.app-record-box-charts .inputs.data-v-195d396b {
+  width: 375rpx;
+  padding-top: 140rpx;
+  position: absolute;
+  text-align: center;
+}
+.app-record-box-charts .inputs .input-box.data-v-195d396b {
+  width: 180rpx;
+  border-bottom: 1px #999 solid;
+  margin: 0 auto;
+}
+.app-record-box-charts .inputs .input-unit.data-v-195d396b {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #999;
+}
+.warp.data-v-195d396b {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.warp .warp-box.data-v-195d396b {
+  width: 80vw;
+  background: #fff;
+  border-radius: 14px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+.warp .warp-box .warp-box-header.data-v-195d396b {
+  background: #e5fef4;
+  padding-bottom: 20px;
+}
+.warp .warp-box .warp-box-header .warp-box-image.data-v-195d396b {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+.warp .warp-box .warp-box-header .warp-box-image .image.data-v-195d396b {
+  width: 120px;
+  height: 70px;
+  object-fit: cover;
+}
+.warp .warp-box .warp-box-title.data-v-195d396b {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.warp .warp-box .warp-box-des.data-v-195d396b {
+  padding: 0px 20px;
+  margin-bottom: 30px;
+  line-height: 1.4;
+  color: #999;
+}
+.warp .warp-box .warp-box-btn.data-v-195d396b {
+  margin: 20px 20px;
+  margin-bottom: 0px;
+  height: 32px;
+  border-radius: 16px;
+  background: #38cb89;
+  line-height: 32px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}

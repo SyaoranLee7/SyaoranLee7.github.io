@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "问卷列表",
+  "titleNView": false,
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "ui-login-popup": "/components/ui/ui-login-popup/ui-login-popup",
+    "u-toast": "/uview-ui/components/u-toast/u-toast"
+  }
+}

@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+.ronin-report.data-v-58ffe1cb {
+  padding-bottom: 200rpx;
+}
+.ronin-report .head.data-v-58ffe1cb {
+  position: relative;
+  width: 100%;
+  height: 300rpx;
+  padding-top: 48rpx;
+}
+.ronin-report .head .head-back.data-v-58ffe1cb {
+  padding: 0 28rpx;
+  height: 88rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #fff;
+  font-size: 32rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ronin-report .head .head-back .head-back-right.data-v-58ffe1cb {
+  width: 100rpx;
+}
+.ronin-report .head-title.data-v-58ffe1cb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  color: #fff;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 52rpx;
+  padding-top: 18rpx;
+}
+.ronin-report .head-title .title.data-v-58ffe1cb {
+  font-size: 48rpx;
+  margin-bottom: 4rpx;
+}
+.ronin-report .head-title .sub-title.data-v-58ffe1cb {
+  font-size: 28rpx;
+  opacity: 0.6;
+}
+.ronin-report .head-title .botton.data-v-58ffe1cb .u-btn {
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+.ronin-report .content.data-v-58ffe1cb {
+  margin: 0 28rpx;
+  padding: 24rpx;
+  min-height: 200rpx;
+  background: #fff;
+  margin-top: -116rpx;
+  border-radius: 24rpx;
+  margin-bottom: 24rpx;
+}
+.ronin-report .content .content-hint.data-v-58ffe1cb {
+  margin-top: 26rpx;
+  height: 162rpx;
+  background: #f6f6f6;
+  border-radius: 4rpx;
+  padding-left: 64rpx;
+  padding-right: 58rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 26rpx;
+}
+.ronin-report .content .content-hint .content-hint-left.data-v-58ffe1cb {
+  width: 140rpx;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.ronin-report .content .content-hint .content-hint-left .img.data-v-58ffe1cb {
+  width: 56rpx;
+  height: 56rpx;
+}
+.ronin-report .content .content-hint .content-hint-right .item.data-v-58ffe1cb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ronin-report .content .content-hint .content-hint-right .item .icon.data-v-58ffe1cb {
+  width: 40rpx;
+  height: 24rpx;
+  background: #ff4c30;
+  border-radius: 4rpx;
+}
+.ronin-report .content .content-hint .content-hint-right .item .type.data-v-58ffe1cb {
+  margin-left: 12rpx;
+  margin-right: 24rpx;
+}
+.ronin-report .content .content-hint .content-hint-right .item .type-high.data-v-58ffe1cb {
+  color: #ff4c30;
+}
+.ronin-report .content .content-hint .content-hint-right .item .type-middle.data-v-58ffe1cb {
+  color: #ffab00;
+}
+.ronin-report .content .content-hint .content-hint-right .item .des.data-v-58ffe1cb {
+  color: #333;
+  font-size: 24rpx;
+}
+.ronin-report .content .content-hint .content-hint-right .item-center .icon.data-v-58ffe1cb {
+  background: #ffab00;
+}
+.ronin-report .content .content-hint .content-hint-right .item-center .type.data-v-58ffe1cb {
+  color: #ffab00;
+}
+.ronin-report .content .content-hint .content-hint-right .item-end .icon.data-v-58ffe1cb {
+  background: #38cb89;
+}
+.ronin-report .content .content-hint .content-hint-right .item-end .type.data-v-58ffe1cb {
+  color: #38cb89;
+}
+.ronin-report .content .img-box.data-v-58ffe1cb {
+  width: 660rpx;
+  height: 660rpx;
+  margin: 60rpx auto;
+}
+.ronin-report .list .item.data-v-58ffe1cb {
+  margin: 0 28rpx;
+  background: #fff;
+  border-radius: 4rpx;
+  padding: 32rpx 0rpx;
+  padding-bottom: 0;
+  margin-bottom: 24rpx;
+}
+.ronin-report .list .item .item-head.data-v-58ffe1cb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 22rpx;
+  padding: 0 28rpx;
+}
+.ronin-report .list .item .item-head .title.data-v-58ffe1cb {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.ronin-report .list .item .item-head .type.data-v-58ffe1cb {
+  margin-left: 16rpx;
+}
+.ronin-report .list .item .item-head .type-high.data-v-58ffe1cb {
+  color: #ff4c30;
+}
+.ronin-report .list .item .item-head .type-middle.data-v-58ffe1cb {
+  color: #ffab00;
+}
+.ronin-report .list .item .item-head .details.data-v-58ffe1cb {
+  color: #999;
+}
+.ronin-report .list .item .item-center.data-v-58ffe1cb {
+  padding: 0 28rpx;
+  padding-bottom: 38rpx;
+}
+.ronin-report .list .item .item-center .item-center-title.data-v-58ffe1cb {
+  color: #999;
+  margin-bottom: 20rpx;
+}
+.ronin-report .list .item .item-center .tag-box.data-v-58ffe1cb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.ronin-report .list .item .item-center .tag-box .tag.data-v-58ffe1cb {
+  margin-right: 20rpx;
+  margin-bottom: 6rpx;
+}
+.ronin-report .list .item .item-center .tag-box .tag.data-v-58ffe1cb .u-tag {
+  background: #f6f6f6;
+  color: #666666;
+}
+.ronin-report .list .item .item-bottom.data-v-58ffe1cb {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-top: 1px solid #f0f0f0;
+  padding: 0 28rpx;
+}
+.ronin-report .list .item .item-bottom .check.data-v-58ffe1cb {
+  color: #3873fe;
+}
+.ronin-report .bottom.data-v-58ffe1cb {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 28rpx;
+}
+.ronin-report .ronin-title.data-v-58ffe1cb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ronin-report .ronin-title .ronin-title-icon.data-v-58ffe1cb {
+  height: 36rpx;
+  width: 10rpx;
+  border-radius: 6rpx;
+  background: -webkit-linear-gradient(top, #769fff, #3873fe);
+  background: linear-gradient(to bottom, #769fff, #3873fe);
+  margin-right: 12rpx;
+}
+.ronin-report .ronin-title .ronin-title-name.data-v-58ffe1cb {
+  font-size: 36rpx;
+  color: #333;
+}
+.app-home-plan-info-btn.data-v-58ffe1cb {
+  border: 1px #e8e8e8 solid;
+  border-radius: 14px;
+  height: 28px;
+  font-size: 14px;
+  padding: 0 10px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}

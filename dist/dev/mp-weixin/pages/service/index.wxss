@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+.app-home {
+  min-height: 60vh;
+  background-position: top right;
+  padding: 20px 14px;
+  height: 200px;
+}
+.app-home-plan-items {
+  margin-top: 10px;
+}
+.app-home-plan-items image {
+  width: 100%;
+}
+.app-home-title {
+  height: 90px;
+  color: #fff;
+}
+.app-home-title ._h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.app-home-title ._p {
+  font-size: 14px;
+}
+/** 健康目标 */
+.app-home-plan {
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px 14px;
+}
+.app-home-plan .app-home-plan-info {
+  width: 100%;
+  height: 52px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1px #eeeeee solid;
+}
+.app-home-plan .app-home-plan-info .app-home-plan-info-msg {
+  font-size: 18px;
+  font-weight: 600;
+}
+.app-home-plan .app-home-plan-info .app-home-plan-info-btn {
+  border: 1px #e8e8e8 solid;
+  border-radius: 14px;
+  height: 28px;
+  font-size: 14px;
+  padding: 0 10px;
+  color: #3873fe;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.app-home-plan .app-home-plan-title {
+  margin: 8px 0px;
+  color: #333;
+  font-size: 14px;
+}
+.app-home-plan .app-home-plan-list {
+  width: 100%;
+}
+.app-home-plan .app-home-plan-list .app-home-plan-list-items:last-child {
+  margin-bottom: 4px;
+}
+.app-home-plan .app-home-plan-list .status-health {
+  background: #effaf6;
+}
+.app-home-plan .app-home-plan-list .status-warning {
+  background: #fcf0df;
+}
+.app-home-plan .app-home-plan-list .app-home-plan-list-items {
+  width: 100%;
+  height: 75px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.app-home-plan .app-home-plan-list .app-home-plan-list-items .app-home-plan-list-items-title-h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.app-home-plan .app-home-plan-list .app-home-plan-list-items .app-home-plan-list-items-title-p {
+  color: #999999;
+}
+.app-home-plan .app-home-plan-list .app-home-plan-list-items .app-home-plan-list-items-info {
+  width: 60vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.app-home-plan .app-home-plan-list .app-home-plan-list-items .app-home-plan-list-items-info-line {
+  height: 24px;
+  width: 0.5px;
+  background: #e6dcce;
+  margin: 0px 6px;
+}
+.app-home-plan .app-home-plan-list .app-home-plan-list-items .app-home-plan-list-items-info-item {
+  padding: 10px;
+  text-align: center;
+}
+.app-home-plan .app-home-plan-list .app-home-plan-list-items .app-home-plan-list-items-info-item-h1 {
+  font-size: 18px;
+}
+.app-home-plan .app-home-plan-list .app-home-plan-list-items .app-home-plan-list-items-info-item-h1 .tips {
+  font-size: 10px;
+  margin-left: 4px;
+}
+.app-home-plan .app-home-plan-list .app-home-plan-list-items .app-home-plan-list-items-info-item-p {
+  color: #999999;
+  font-size: 10px;
+}

@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
+  }
+}

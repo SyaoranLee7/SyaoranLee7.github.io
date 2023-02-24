@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+.u-tag.data-v-95cf93f4 {
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-radius: 6rpx;
+  display: inline-block;
+  line-height: 1;
+}
+.u-size-default.data-v-95cf93f4 {
+  font-size: 22rpx;
+  padding: 12rpx 22rpx;
+}
+.u-size-mini.data-v-95cf93f4 {
+  font-size: 20rpx;
+  padding: 6rpx 12rpx;
+}
+.u-mode-light-primary.data-v-95cf93f4 {
+  background-color: #F8FAFF;
+  color: #3873fe;
+  border: 1px solid #a0cfff;
+}
+.u-mode-light-success.data-v-95cf93f4 {
+  background-color: #EBFAF3;
+  color: #38cb89;
+  border: 1px solid #71d5a1;
+}
+.u-mode-light-error.data-v-95cf93f4 {
+  background-color: #FFF8F6;
+  color: #ff5d16;
+  border: 1px solid #fab6b6;
+}
+.u-mode-light-warning.data-v-95cf93f4 {
+  background-color: #FFFBF4;
+  color: #ffab00;
+  border: 1px solid #fcbd71;
+}
+.u-mode-light-info.data-v-95cf93f4 {
+  background-color: #f4f4f5;
+  color: #909399;
+  border: 1px solid #c8c9cc;
+}
+.u-mode-dark-primary.data-v-95cf93f4 {
+  background-color: #3873fe;
+  color: #FFFFFF;
+}
+.u-mode-dark-success.data-v-95cf93f4 {
+  background-color: #38cb89;
+  color: #FFFFFF;
+}
+.u-mode-dark-error.data-v-95cf93f4 {
+  background-color: #ff5d16;
+  color: #FFFFFF;
+}
+.u-mode-dark-warning.data-v-95cf93f4 {
+  background-color: #ffab00;
+  color: #FFFFFF;
+}
+.u-mode-dark-info.data-v-95cf93f4 {
+  background-color: #909399;
+  color: #FFFFFF;
+}
+.u-mode-plain-primary.data-v-95cf93f4 {
+  background-color: #FFFFFF;
+  color: #3873fe;
+  border: 1px solid #3873fe;
+}
+.u-mode-plain-success.data-v-95cf93f4 {
+  background-color: #FFFFFF;
+  color: #38cb89;
+  border: 1px solid #38cb89;
+}
+.u-mode-plain-error.data-v-95cf93f4 {
+  background-color: #FFFFFF;
+  color: #ff5d16;
+  border: 1px solid #ff5d16;
+}
+.u-mode-plain-warning.data-v-95cf93f4 {
+  background-color: #FFFFFF;
+  color: #ffab00;
+  border: 1px solid #ffab00;
+}
+.u-mode-plain-info.data-v-95cf93f4 {
+  background-color: #FFFFFF;
+  color: #909399;
+  border: 1px solid #909399;
+}
+.u-disabled.data-v-95cf93f4 {
+  opacity: 0.55;
+}
+.u-shape-circle.data-v-95cf93f4 {
+  border-radius: 100rpx;
+}
+.u-shape-circleRight.data-v-95cf93f4 {
+  border-radius: 0 100rpx 100rpx 0;
+}
+.u-shape-circleLeft.data-v-95cf93f4 {
+  border-radius: 100rpx 0 0 100rpx;
+}
+.u-close-icon.data-v-95cf93f4 {
+  margin-left: 14rpx;
+  font-size: 22rpx;
+  color: #38cb89;
+}
+.u-icon-wrap.data-v-95cf93f4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-transform: scale(0.86);
+          transform: scale(0.86);
+}

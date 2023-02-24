@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "消息",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar",
+    "t-u-i-conversation-item": "/components/tui-conversation/conversation-item/index",
+    "t-u-i-message-list": "/components/tui-chat/message-list/index",
+    "user-item": "/components/tui-conversation/conversation-item/userItem"
+  }
+}

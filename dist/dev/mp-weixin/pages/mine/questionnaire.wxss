@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+.ronin-questionnaire .home-title.data-v-664fe5a0 {
+  font-weight: 600;
+  font-size: 36rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 30rpx;
+}
+.ronin-questionnaire .home-title .icon.data-v-664fe5a0 {
+  width: 8rpx;
+  height: 30rpx;
+  border-radius: 4rpx;
+  background: #3873fe;
+  margin-right: 10rpx;
+}
+.ronin-questionnaire .home-list.data-v-664fe5a0 {
+  padding: 0 28rpx;
+  padding-top: 30rpx;
+}
+.ronin-questionnaire .home-list .list-item.data-v-664fe5a0 {
+  margin-bottom: 16rpx;
+}
+.ronin-questionnaire .home-list .list-item .btn.data-v-664fe5a0 {
+  display: block;
+}
+.ronin-questionnaire .home-list .list-item .btn.data-v-664fe5a0 .u-btn {
+  border: 0px solid #000;
+}

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+.ronin-helth-form.data-v-bbe67d5e .u-dropdown__menu__item {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  padding-left: 30rpx;
+}
+.ronin-helth-form .head.data-v-bbe67d5e {
+  width: 100%;
+  height: 232rpx;
+  position: relative;
+  padding: 32rpx;
+  background: #fff;
+}
+.ronin-helth-form .head .bg.data-v-bbe67d5e {
+  position: absolute;
+  top: 32rpx;
+  left: 32rpx;
+  z-index: 1;
+}
+.ronin-helth-form .head .text.data-v-bbe67d5e {
+  position: relative;
+  z-index: 10;
+  font-size: 24rpx;
+  margin-bottom: 8rpx;
+  margin-left: 40rpx;
+}
+.ronin-helth-form .head .title.data-v-bbe67d5e {
+  font-size: 36rpx;
+  padding-top: 62rpx;
+}
+.ronin-helth-form .item.data-v-bbe67d5e {
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px #eee solid;
+  margin: 10px 0px;
+  padding-bottom: 10px;
+}
+.ronin-helth-form .item .item-content.data-v-bbe67d5e {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-left: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.ronin-helth-form .item .item-content .title.data-v-bbe67d5e {
+  -webkit-align-self: flex-start;
+          align-self: flex-start;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+.ronin-helth-form .item .item-content .sub-title.data-v-bbe67d5e {
+  font-size: 24rpx;
+  color: #b0aeae;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.ronin-helth-form .item .item-content .bottom.data-v-bbe67d5e {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 24rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.ronin-helth-form .item .item-content .bottom .price.data-v-bbe67d5e {
+  color: #ff5d16;
+  margin-right: 6rpx;
+}
+.ronin-helth-form .item .item-content .bottom .price-big.data-v-bbe67d5e {
+  font-weight: 600;
+  font-size: 32rpx;
+}
+.ronin-helth-form .item .item-content .bottom .old-price.data-v-bbe67d5e {
+  color: #cccccc;
+  text-decoration: line-through;
+}
+.section.data-v-bbe67d5e {
+  margin: 14px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 10px 14px;
+}
+.section .titles.data-v-bbe67d5e {
+  font-size: 32rpx;
+  margin-bottom: 32rpx;
+  margin-top: 10rpx;
+  font-weight: bold;
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "详情",
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "u-parse": "/uview-ui/components/u-parse/u-parse"
+  }
+}

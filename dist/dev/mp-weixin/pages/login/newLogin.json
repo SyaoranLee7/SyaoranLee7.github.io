@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "登录",
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "u-modal": "/uview-ui/components/u-modal/u-modal"
+  }
+}

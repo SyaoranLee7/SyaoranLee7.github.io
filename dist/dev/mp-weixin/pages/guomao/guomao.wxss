@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**
+*  请定义在上面的模版里 按照 ·$u-属性-值· 命名如 $u-font-sm
+*/
+.mainBox.data-v-29951ef4 {
+  background: url("https://hktimgs.oss-cn-shanghai.aliyuncs.com/svg/background.svg") no-repeat;
+  background-size: 100% auto;
+  width: 750rpx;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100%;
+  background-color: #69D0CF;
+}
+.mainBox .mainTitle.data-v-29951ef4 {
+  background: url("https://hktimgs.oss-cn-shanghai.aliyuncs.com/svg/title.svg") no-repeat;
+  background-size: 100% auto;
+  width: 750rpx;
+  height: 685rpx;
+  position: absolute;
+}
+.mainBox .mainPerson.data-v-29951ef4 {
+  background: url("https://hktimgs.oss-cn-shanghai.aliyuncs.com/svg/person.png") no-repeat;
+  background-size: 70% auto;
+  background-position: center bottom;
+  width: 750rpx;
+  height: 685rpx;
+  position: relative;
+}
+.mainBox .scBox.data-v-29951ef4 {
+  width: 750rpx;
+  position: relative;
+  background: #4fcbd1;
+  border-radius: 20rpx;
+  top: -10px;
+  padding: 20rpx 20rpx;
+}
+.mainBox .scBox .innerBox.data-v-29951ef4 {
+  width: 100%;
+  padding: 25rpx 0rpx;
+  background-color: #08b4b8;
+  border-radius: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.mainBox .scBox .innerBox .innerItem.data-v-29951ef4 {
+  width: calc(50% - 20rpx);
+  margin: 10rpx 10rpx;
+  height: 160rpx;
+  border-radius: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 10rpx;
+  background-size: 100% auto;
+}
+.mainBox .consult.data-v-29951ef4 {
+  background: url("https://hktimgs.oss-cn-shanghai.aliyuncs.com/svg/1.svg");
+}
+.mainBox .goods.data-v-29951ef4 {
+  background: url("https://hktimgs.oss-cn-shanghai.aliyuncs.com/svg/2.svg");
+}
+.mainBox .guide.data-v-29951ef4 {
+  background: url("https://hktimgs.oss-cn-shanghai.aliyuncs.com/svg/3.svg");
+}
+.mainBox .fever.data-v-29951ef4 {
+  background: url("https://hktimgs.oss-cn-shanghai.aliyuncs.com/svg/4.svg");
+}
+.mainBox .store.data-v-29951ef4 {
+  background: url("https://hktimgs.oss-cn-shanghai.aliyuncs.com/svg/5.svg");
+}
+.mainBox .fence.data-v-29951ef4 {
+  background: url("https://hktimgs.oss-cn-shanghai.aliyuncs.com/svg/6.svg");
+}

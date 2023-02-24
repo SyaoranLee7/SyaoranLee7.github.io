@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "navigationBarTitleText": "记录",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

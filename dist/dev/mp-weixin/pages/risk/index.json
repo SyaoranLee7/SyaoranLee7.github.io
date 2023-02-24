@@ -1,0 +1,12 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "img-box": "/pages/risk/img"
+  }
+}
