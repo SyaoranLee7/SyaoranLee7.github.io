@@ -1,34 +1,43 @@
-import Vue from "vue";
+import Vue from 'vue'
+import App from './App'
+import * as filters from './filters'
+import common from '@/common/common'
 
-import "@/styles/index.scss"; // global css
-import "normalize.css/normalize.css"; // a modern alternative to CSS resets
-import "echarts-gl"; // Echarts
-import logger from "@/utils/logger"; // 替换console
 
-// ElementUI
-import Element from "element-ui";
-import "element-ui/lib/theme-chalk/index.css";
-Vue.use(Element);
+Object.keys(filters).forEach(key=>{
+  Vue.filter(key,filters[key])
+})
 
-import VueResource from "vue-resource";
-Vue.use(VueResource);
+Vue.config.productionTip = false
+App.mpType = 'app'
+// 引入全局uView
+import uView from 'uview-ui'
+Vue.use(uView)
 
-const install = function (VueClass, opts = {}) {
-    if (install.installed) return;
+import Mixin from './polyfill/mixins';
+Vue.mixin(Mixin);
 
-    /* methods */
-    VueClass.logger = logger;
-    VueClass.prototype.$logger = logger;
-};
-Vue.use(install);
+// import Mixin from './polyfill/mixins';
+// Vue.mixin(Mixin);
 
-import App from "./App";
-import router from "./router";
 
-Vue.config.productionTip = false;
+// vuex使用
+import store from '@/store'
 
-new Vue({
-    el: "#app",
-    router,
-    render: h => h(App)
-});
+// vuex的简写法文件
+let vuexStore = require('@/store/$u.mixin.js')
+
+Vue.mixin(vuexStore)
+
+Vue.prototype.$common = common
+
+const app = new Vue({
+  store,
+  ...App
+})
+
+// http拦截器，将此部分放在new Vue()和app.$mount()之间，才能App.vue中正常使用
+import httpInterceptor from '@/common/http.interceptor.js'
+Vue.use(httpInterceptor, app)
+console.log(Vue.prototype,'显示数据')
+app.$mount();

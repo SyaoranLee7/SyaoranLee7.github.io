@@ -1,0 +1,527 @@
+{
+	"easycom": {
+		"^r-(.*)": "@/components/ronin/r-$1/r-$1.vue",
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+		"^ui-(.*)": "@/components/ui/ui-$1/ui-$1.vue"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": []
+	},
+	"pages": [
+		// 首页
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/home/ase",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/home/homecopy",
+			"style": {
+				"navigationBarTitleText": "问卷列表",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/report/questionnaire",
+			"style": {
+				"navigationBarTitleText": "健康测评",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/home/questionnaire",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/health-service/index",
+			"style": {
+				"navigationBarTitleText": "健康权益",
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 健康档案
+		{
+			"path": "pages/health-records/index",
+			"style": {
+				"navigationBarTitleText": "健康档案",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 食物
+		{
+			"path": "pages/foods/foods",
+			"style": {
+				"navigationBarTitleText": "饮食",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/sports/sports",
+			"style": {
+				"navigationBarTitleText": "运动",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		//复查入口
+		{
+			"path": "pages/re-check/re-check",
+			"style": {
+				"navigationBarTitleText": "复查",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 健康目标计划
+		{
+			"path": "pages/plans/index",
+			"style": {
+				"navigationBarTitleText": "目标",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 我的
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 我的个人信息
+		{
+			"path": "pages/mine/info",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 暂无更多
+		{
+			"path": "pages/mine/empty",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 目标
+		{
+			"path": "pages/service/index",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/risk/index",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/risk/disease",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/risk/hint",
+			"style": {
+				"navigationBarTitleText": "设置健康目标",
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/risk/questionnaire",
+			"style": {
+				"navigationBarTitleText": "健康测评"
+			}
+		},
+		//体检报告列表
+		{
+			"path": "pages/check-records/list",
+			"style": {
+				"navigationBarTitleText": "体检报告",
+				"enablePullDownRefresh": false, //下拉刷新
+				"titleNView": false
+			}
+		},
+		//体检报告详情
+		{
+			"path": "pages/check-records/detail",
+			"style": {
+				"navigationBarTitleText": "体检报告详情",
+				"enablePullDownRefresh": false, //下拉刷新
+				"titleNView": false
+			}
+		},
+		//体检指标解读
+		{
+			"path": "pages/check-records/items-detail",
+			"style": {
+				"navigationBarTitleText": "指标详情",
+				"enablePullDownRefresh": false, //下拉刷新
+				"titleNView": false
+			}
+		},
+		//体检项目组套
+		{
+			"path": "pages/check-records/check-items-detail",
+			"style": {
+				"navigationBarTitleText": "体检项目组套",
+				"enablePullDownRefresh": false, //下拉刷新
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/risk/fitness",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		//授权
+		{
+			"path": "pages/auth/auth",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationBarTitleText": "用户授权",
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationBarTitleText": "知识",
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/article/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// {
+		// 	"path": "pages/login/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "登录"
+		// 	}
+		// },
+		{
+			"path": "pages/login/newLogin",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/login/newLoginPc",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/mine/questionnaire",
+			"style": {
+				"navigationBarTitleText": "答卷列表"
+			}
+		},
+		{
+			"path": "pages/TUI-Conversation/conversation/conversation",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/TUI-Chat/chat",
+			"style": {
+				"navigationBarTitleText": "防疫咨询",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/TUI-Conversation/create-conversation/create",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/TUI-Group/create-group/create",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/target/list",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "目标"
+			}
+		},
+		{
+			"path": "pages/target/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/check-item/list",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/health-form/list",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "套餐列表"
+			}
+		},
+		{
+			"path": "pages/health-form/reading",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "预约须知"
+			}
+		},
+		{
+			"path": "pages/health-form/details",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "套餐详情"
+			}
+		},
+		{
+			"path": "pages/health-form/projectDetails",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "套餐详情"
+			}
+		},
+		{
+			"path": "pages/guomao/guomao",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "国贸防疫"
+			}
+		},
+		{
+			"path": "pages/health-form/calendar",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "日历"
+			}
+		},
+		{
+			"path": "pages/health-form/appointment",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "套餐详情"
+			}
+		},
+		{
+			"path": "pages/health-form/appointmentList",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "预约列表"
+			}
+		},
+		{
+			"path": "pages/health-form/appointmentconfig",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "预约详情"
+			}
+		},
+		{
+			"path": "pages/health-form/appointmentDetails",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "预约详情"
+			}
+		},
+		{
+			"path": "pages/health-form/detailsNew",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "体检项目建议"
+			}
+		},
+		{
+			"path": "pages/report/ruslt",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "量表结果"
+			}
+		},
+		{
+			"path": "pages/records/index",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "记录"
+			}
+		},
+		{
+			"path": "pages/records/add",
+			"style": {
+				"navigationStyle": "custom",
+				"titleNView": false,
+				"navigationBarTitleText": "添加记录"
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {}
+		},
+		{
+			"path": "pages/news/detail",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/TUI-Conversation",
+			"pages": [
+				{
+					"path": "conversation/conversation",
+					"style": {
+						"navigationBarTitleText": "消息",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "create-conversation/create",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/TUI-Chat",
+			"pages": [
+				{
+					"path": "chat",
+					"style": {
+						"navigationBarTitleText": "聊天",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"titleNView": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/TUI-Group",
+			"pages": [
+				{
+					"path": "create-group/create",
+					"style": {
+						"navigationBarTitleText": "添加",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "健康管理",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"fontSize": "8px",
+		"list": [
+			{
+				"pagePath": "pages/home/home"
+			},
+			{
+				"pagePath": "pages/plans/index"
+			},
+			{
+				"pagePath": "pages/mine/index"
+			}
+
+		]
+	}
+}

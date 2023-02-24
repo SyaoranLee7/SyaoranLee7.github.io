@@ -1,0 +1,77 @@
+<template>
+  <view class="ronin-questionnaire">
+    <view class="home-list">
+      <view class="home-title">
+        <view class="icon"></view>
+        <text>消息列表</text>
+      </view>
+
+      <view
+        class="list-item"
+        @click="onClickTo"
+        v-for="(item, index) in list"
+        :key="index"
+      >
+        <u-button :hair-line="false" class="btn">{{ item.scaleConfigName }}</u-button>
+      </view>
+    </view>
+  </view>
+</template>
+
+<script>
+import {scaleConfigQueryResult} from'@/api/questionnaire'
+export default {
+  data() {
+    return {
+        list:[]
+    };
+  },
+  onLoad(){
+      this.init()
+  },
+  methods:{
+     init(){
+         scaleConfigQueryResult({}).then(res=>{
+             if(res.code == '0'){
+                 this.list = res.data.records
+             }
+         })
+     } 
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+.ronin-questionnaire {
+  .home-title {
+    font-weight: 600;
+    font-size: 36rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30rpx;
+    .icon {
+      width: 8rpx;
+      height: 30rpx;
+      border-radius: 4rpx;
+      background: #3873fe;
+      margin-right: 10rpx;
+    }
+  }
+  .home-list {
+    padding: 0 28rpx;
+    padding-top: 30rpx;
+
+    .list-item {
+      margin-bottom: 16rpx;
+
+      .btn {
+        display: block;
+        ::v-deep.u-btn {
+          border: 0px solid #000;
+        }
+      }
+    }
+  }
+}
+</style>

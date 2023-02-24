@@ -1,0 +1,135 @@
+{
+    "name" : "健康管理",
+    "appid" : "__UNI__9FA0317",
+    "description" : "健康管理APP",
+    "versionName" : "1.5.7",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "app-plus" : {
+        // APP-VUE分包，可提APP升启动速度，2.7.12开始支持，兼容微信小程序分包方案，默认关闭
+        "optimization" : {
+            "subPackages" : true
+        },
+        "safearea" : {
+            "bottom" : {
+                "offset" : "none"
+            }
+        },
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "modules" : {},
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a" ]
+            },
+            "ios" : {},
+            "sdkConfigs" : {
+                "ad" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                    "xhdpi" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                    "xxhdpi" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                    "xxxhdpi" : "C:/Users/admin/Desktop/资源/图片/logo1.png"
+                },
+                "ios" : {
+                    "appstore" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                    "ipad" : {
+                        "app" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "app@2x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "notification" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "notification@2x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "proapp@2x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "settings" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "settings@2x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "spotlight" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "spotlight@2x" : "C:/Users/admin/Desktop/资源/图片/logo1.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "app@3x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "notification@2x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "notification@3x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "settings@2x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "settings@3x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "spotlight@2x" : "C:/Users/admin/Desktop/资源/图片/logo1.png",
+                        "spotlight@3x" : "C:/Users/admin/Desktop/资源/图片/logo1.png"
+                    }
+                }
+            }
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : true,
+            "es6" : false,
+            "minified" : true,
+            "postcss" : true
+        },
+        "optimization" : {
+            "subPackages" : true
+        },
+        "usingComponents" : true
+    },
+    "mp-alipay" : {
+        "usingComponents" : true,
+        "component2" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true,
+        "appid" : ""
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "h5" : {
+        "template" : "template.h5.html",
+        "publicPath": "/questionnaireDev", // 老王服务器地址测试
+        //"publicPath": "/questionnaire", // 老王服务器地址生产
+        //"publicPath": "/guomao",  // 国贸地址 防疫
+        //"publicPath": "/guomaotest",
+        "router" : {
+            "mode" : "hash",
+            "base" : ""
+        },
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : true
+            }
+        }
+    }
+}

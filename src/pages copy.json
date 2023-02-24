@@ -1,0 +1,203 @@
+{
+	"easycom": {
+		"^r-(.*)": "@/components/ronin/r-$1/r-$1.vue",
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+		"^ui-(.*)": "@/components/ui/ui-$1/ui-$1.vue"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": []
+	},
+	"pages": [
+		// 首页
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/health-service/index",
+
+			"style": {
+				"navigationBarTitleText": "健康权益",
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 健康档案
+		{
+			"path": "pages/health-records/index",
+			"style": {
+				"navigationBarTitleText": "健康档案",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 健康目标计划
+		{
+			"path": "pages/plans/index",
+			"style": {
+				"navigationBarTitleText": "目标",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 我的
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// 目标
+		{
+			"path": "pages/service/index",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/risk/index",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/risk/disease",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/risk/hint",
+			"style": {
+				"navigationBarTitleText": "设置健康目标",
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/risk/questionnaire",
+			"style": {
+				"navigationBarTitleText": "健康测评"
+			}
+		},
+		//体检报告列表
+		{
+			"path": "pages/check-records/list",
+			"style": {
+				"navigationBarTitleText": "体检报告",
+				"enablePullDownRefresh": false, //下拉刷新
+				"titleNView": false
+			}
+		},
+		//体检报告详情
+		{
+			"path": "pages/check-records/detail",
+			"style": {
+				"navigationBarTitleText": "体检报告详情",
+				"enablePullDownRefresh": false, //下拉刷新
+				"titleNView": false
+			}
+		},
+		//体检指标解读
+		{
+			"path": "pages/check-records/items-detail",
+			"style": {
+				"navigationBarTitleText": "指标详情",
+				"enablePullDownRefresh": false, //下拉刷新
+				"titleNView": false
+			}
+		},
+		//体检项目组套
+		{
+			"path": "pages/check-records/check-items-detail",
+			"style": {
+				"navigationBarTitleText": "体检项目组套",
+				"enablePullDownRefresh": false, //下拉刷新
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/risk/fitness",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		//授权
+		{
+			"path": "pages/auth/auth",
+			"style": {
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationBarTitleText": "用户授权",
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		// {
+		// 	"path": "pages/login/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "登录"
+		// 	}
+		// },
+		{
+			"path": "pages/login/newLogin",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/mine/questionnaire",
+			"style": {
+				"navigationBarTitleText": "答卷列表"
+			}
+		}
+	],
+	"subPackages": [],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "健康管理",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"fontSize": "8px",
+		"list": [
+			{
+				"pagePath": "pages/home/home"
+			},
+			{
+				"pagePath": "pages/plans/index"
+			},
+			{
+				"pagePath": "pages/mine/index"
+			},
+			{
+				"pagePath": "pages/service/index"
+			}
+		]
+	}
+}
