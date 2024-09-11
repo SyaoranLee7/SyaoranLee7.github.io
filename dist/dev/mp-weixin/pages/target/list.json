@@ -1,8 +1,0 @@
-{
-  "navigationStyle": "custom",
-  "titleNView": false,
-  "navigationBarTitleText": "目标",
-  "usingComponents": {
-    "u-button": "/uview-ui/components/u-button/u-button"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "enablePullDownRefresh": false,
-  "navigationStyle": "custom",
-  "titleNView": false,
-  "usingComponents": {
-    "u-tag": "/uview-ui/components/u-tag/u-tag",
-    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
-  }
-}

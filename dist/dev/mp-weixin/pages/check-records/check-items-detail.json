@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "体检项目组套",
-  "enablePullDownRefresh": false,
-  "titleNView": false,
-  "usingComponents": {
-    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
-    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item"
-  }
-}

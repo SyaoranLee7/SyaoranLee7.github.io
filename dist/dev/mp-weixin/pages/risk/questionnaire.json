@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "健康测评",
-  "usingComponents": {
-    "u-image": "/uview-ui/components/u-image/u-image",
-    "u-button": "/uview-ui/components/u-button/u-button",
-    "u-input": "/uview-ui/components/u-input/u-input"
-  }
-}

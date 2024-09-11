@@ -1,0 +1,103 @@
+{
+  "common": {
+    "loading_text": "加载中...",
+    "network_error": "网络异常",
+    "unlogin": "用户未登录",
+    "delete": "删除",
+    "add": "新增",
+    "cancel": "取消",
+    "submit": "提交",
+    "save": "保存",
+    "reset": "重置",
+    "search": "搜索",
+    "operate": "操作",
+    "view": "查看",
+    "movePrev": "上移",
+    "moveNext": "下移"
+  },
+  "login": {},
+
+  "basic": {
+    "name":"姓名",
+    "gender":"性别",
+    "age":"年龄",
+    "male":"男",
+    "female":"女",
+    "unknow_sex":"不详",
+    "birth_date":"出生日期",
+    "patient_code": "病案号",
+    "id_number": "身份证号",
+    "admission_number": "病案号",
+    "outpatient_number": "放疗号",
+    "diagnose": "诊断",
+    "main_doctor": "主管医生",
+    "physicist": "物理师",
+    "doctor_group": "医生组",
+    "phy_group": "物理组",
+    "marrage":"婚姻",
+    "live_place":"现住址",
+    "native_place":"籍贯",
+    "phone":"电话",
+    "contact_name":"联系人姓名",
+    "contact_phone":"联系人电话",
+    "contact_relationship":"联系人关系",
+    "machine_room":"机房",
+    "role": "角色",
+    "job_no": "工号"
+
+  },
+
+  "table": {
+    "index":"序号",
+    "name":"患者姓名",
+    "name_and_gender":"姓名/性别",
+    "name_gender_age":"姓名/性别/年龄",
+    "search_placeholder": "姓名/病案号/放疗号",
+    "doctor_or_group": "主管医生/组",
+    "phone": "本人电话",
+    "treatment_times": "治疗次数",
+    "plan_times": "处方次数",
+    "finish_times": "完成次数",
+    "rest_times": "剩余次数",
+    "current_status": "当前阶段",
+    "current_flow": "疗程",
+    "last_finsish": "上一步完成时间",
+    "treat_date": "疗程日期",
+    "register_date": "登记日期",
+    "treat_at": "完成时间",
+    "operate": "操作",
+    "radiotherapy_times": "放疗次数",
+    "upload_time": "上传时间",
+    "upload_user": "操作者",
+
+    "patient_tags": "患者标签",    
+    "dicom_view": "DICOM数据",
+    "plan_view": "计划报告"
+  },
+
+  "status": {
+    "list": [
+      { "label": "全部患者", "value": -1 },
+      { "label": "进行中", "value": 0 },
+      { "label": "暂停", "value": 2 },
+      { "label": "已终止", "value": 3 },
+      { "label": "正常结束", "value": 1 }
+    ]
+  },
+
+  "placeholder": {
+    "search_placeholder": "姓名/病案号/放疗号"
+  },
+
+  "flow": {
+    "flow":"疗程",
+    "register":"登记",
+    "position":"定位",
+    "contour":"勾画",
+    "plan":"计划",
+    "reposition":"复位",
+    "treatment":"治疗",
+    "beam_count":"野数",
+    "over": "完成"
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "navigationStyle": "custom",
-  "titleNView": false,
-  "navigationBarTitleText": "日历",
-  "usingComponents": {
-    "u-icon": "/uview-ui/components/u-icon/u-icon"
-  }
-}

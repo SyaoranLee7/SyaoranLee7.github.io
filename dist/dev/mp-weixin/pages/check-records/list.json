@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "体检报告",
-  "enablePullDownRefresh": false,
-  "titleNView": false,
-  "usingComponents": {
-    "u-button": "/uview-ui/components/u-button/u-button"
-  }
-}
