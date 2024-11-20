@@ -1,8 +1,8 @@
 const SETTING = {
-  // api: "http://172.16.3.140:5001", // dev
+  api: "http://172.16.3.203:5001", // dev
 
   /* production */
-  api: "http://bqztc-cmzd.cn/api",
+  // api: "http://bqztc-cmzd.cn/api",
 
   /* 语言 */
   lang: "zh",
@@ -15,7 +15,7 @@ const SETTING = {
   needHamburger: true, // 展开缩小菜单
 
   /* 系统框架配置 */
-  needDashboard: true, // 是否需要首页
+  needDashboard: false, // 是否需要首页
   needHospital: false, // 是否需要院区
   developMode: false, // 前端开发模式
 
